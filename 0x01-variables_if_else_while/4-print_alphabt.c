@@ -10,7 +10,7 @@ int main(void)
 	int count  = 0;
 
 	do {
-		if(ch != 'q' && ch != 'e')
+		if (ch != 'q' && ch != 'e')
 			putchar(ch);
 		ch++;
 		count++;
