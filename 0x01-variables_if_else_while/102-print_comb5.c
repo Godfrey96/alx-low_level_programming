@@ -11,14 +11,14 @@ int main(void)
 
 	for (i = 0; i <= 98; i++)
 	{
-		for (j = i + 1; j <= 99; j ++)
+		for (j = i + 1; j <= 99; j++)
 		{
 			res1 = i / 10;
 			res2 = i % 10;
 
 			putchar(res1 + '0');
 			putchar(res2 + '0');
-			putchar(' ' );
+			putchar(' ');
 
 			res3 = j / 10;
 			res4 = j % 10;
