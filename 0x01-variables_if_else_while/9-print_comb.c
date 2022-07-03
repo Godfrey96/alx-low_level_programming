@@ -1,7 +1,9 @@
 #include <stdio.h>
 /**
  * main-Entry point
- * print all combination of single digit numbers seperated by commas and space'Return: 0 if successful
+ * print all combination of single digit numbers
+ *seperated by commas and space'Return: 0 if successful
+ * Return: 0 if successful
  */
 int main(void)
 {
