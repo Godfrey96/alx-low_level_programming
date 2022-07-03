@@ -12,7 +12,7 @@ int main(void)
 		putchar(ch);
 		ch++;
 		count++;
-		putchar("\n");
-	}whil(count < 26);
+		putchar('\n');
+	}while(count < 26);
 	return (0);
 }
