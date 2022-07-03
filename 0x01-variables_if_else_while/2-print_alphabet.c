@@ -8,8 +8,8 @@ int main(void)
 {
 	char ch = 'a';
 	int count = 0;
-	do {
-
+	do
+	{
 		putchar(ch);
 		ch++;
 		count++;
