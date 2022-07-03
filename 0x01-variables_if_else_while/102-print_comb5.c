@@ -7,20 +7,21 @@
 int main(void)
 {
 	int i, j;
+	int res1, res2, res3, res4;
 
 	for (i = 0; i < 98; i++)
 	{
-		for( j = i + 1; j < 99; j ++)
+		for (j = i + 1; j < 99; j ++)
 		{
-			int res1 = i / 10;
-			int res2 = i % 10;
+			res1 = i / 10;
+			res2 = i % 10;
 
 			putchar(res1 + '0');
 			putchar(res2 + '0');
 			putchar(' ' );
 
-			int res3 = j / 10;
-			int res4 = k % 10;
+			res3 = j / 10;
+			res4 = j % 10;
 
 			putchar(res3 + '0');
 			putchar(res4 + '0');
@@ -33,6 +34,6 @@ int main(void)
 			putchar(' ');
 		}
 	}
-	putchar('\');
+	putchar('\n');
 	return (0);
 }
