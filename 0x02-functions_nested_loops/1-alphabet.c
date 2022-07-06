@@ -2,10 +2,9 @@
 
 /**
  * main-Entry point
- * program that prints alphabet in lowercase
+ * print_alphabet - program that prints alphabet in lowercase
  * Return: 0 if successfull
  */
-
 void print_alphabet(void)
 {
 	char ch = 'a';
