@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
  * main-Entry point
@@ -9,12 +8,13 @@
 
 int main(void)
 {
-	char ch[] = "_putchar\n";
-	int i;
+	char ch[] = "_putchar";
+	int i = 0;
 
-	for (i = 0; i < strlen(ch); i++)
-	{
+	do {
 		_putchar(ch[i]);
-	}
+		i++;
+	} while (ch[i]);
+	_putchar('\n');
 	return 0;
 }
