@@ -11,7 +11,7 @@ int main(void)
 	unsigned long int fib_half1, fib_half2, fib_half3;
 
 	fibo1 = 0;
-	fibo2 = 1;
+	fibo2 = 0;
 	fib1 = 1;
 	fib2 = 2;
 
