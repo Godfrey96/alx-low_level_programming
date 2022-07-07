@@ -2,7 +2,7 @@
 
 /**
  * _isdigit - a function that checks for a digit (0 through 9)
- * @c - int to bbe chacked
+ * @c: int to bbe chacked
  * Return: 1 if is digit or 0 otherwise
  */
 
