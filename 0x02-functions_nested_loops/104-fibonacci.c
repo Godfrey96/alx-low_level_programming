@@ -25,7 +25,7 @@ int main(void)
 			fib_half3 = fibo1 + fibo2 + fib_half1;
 			fibo1 = fibo2, fibo2 = fib_half3;
 			fib1 = fib2, fib2 = fib_half2;
-			printf("%ld%ld", fibo2, fib2);
+			printf("%ld%010ld", fibo2, fib2);
 		}
 		else
 		{
