@@ -11,7 +11,7 @@ int main(void)
 
 	for (i = 0; i < 50; i++)
 	{
-		printf("%d", firstNum);
+		printf("%ld", firstNum);
 		sum = firstNum + secondNum;
 		firstNum = secondNum;
 		secondNum = sum;
