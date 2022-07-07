@@ -15,7 +15,7 @@ int main(void)
 	fib1 = 1;
 	fib2 = 2;
 
-	printf("%ld, %ld ", fib1, fib2);
+	printf("%ld, %ld, ", fib1, fib2);
 	for (i = 2; i < 98; i++)
 	{
 		if (fib1 + fib2 > 10000000000 || fibo2 > 0 || fibo1 > 0)
