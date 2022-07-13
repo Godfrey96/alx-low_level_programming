@@ -15,10 +15,10 @@ int main(void)
 	for (i = 0, total = 2772; total > 122; i++)
 	{
 		random = (rand() % 125) + 1;
-		printf("%d", random);
+		printf("%c", random);
 		total -= random;
 	}
-	printf("%d", total);
+	printf("%c", total);
 
 	return (0);
 }
