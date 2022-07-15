@@ -11,7 +11,7 @@ char *leet(char *str)
 	int i = 0;
 	int j = 0;
 
-	char arr_Num[] = {'4', '3', '1', '0', '7'};
+	char arr_num[] = {'4', '3', '1', '0', '7'};
 	char arr_upper[] = {'A', 'E', 'L', 'O', 'T'};
 	char arr_lower[] = {'a', 'e', 'l', 'o', 't'};
 
