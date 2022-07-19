@@ -10,20 +10,28 @@
 
 void print_diagsums(int *a, int size)
 {
-	int i;
-	int sum1 = 0;
-	int sum2 = 0;
+	int i, sum, mult;
 
-	for (i = 0; i < size; i++)
+	i = 0;
+	sum = 0;
+	mult = size * size;
+
+	while (i < mult)
 	{
-		sum1 += a[i];
-		a += size;
+		if (i % (size + 1) == 0)
+			sum += a[i];
+		i++;
 	}
-	a -= size;
-	for (i = 0; i < size; i++)
+	printf("%d, ", sum);
+
+	i = 0;
+	sum = 0;
+
+	while (i < mult)
 	{
-		sum2 += a[i];
-		a -= size;
+		if (i % (size - 1) == 0 && i != (mult - 1) && i != 0)
+			sum += a[i];
+		i++;
 	}
-	printf("%d, %d\n", sum1, sum2);
+	printf("%d\n", sum);
 }
