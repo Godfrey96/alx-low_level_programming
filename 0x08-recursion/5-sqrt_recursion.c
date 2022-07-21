@@ -18,7 +18,7 @@ int _sqrt(int a, int b)
 
 /**
  * _sqrt_recursion - the natural square root of a number.
- * @m: the number
+ * @n: the number
  * Return: 0 on successful
  */
 
