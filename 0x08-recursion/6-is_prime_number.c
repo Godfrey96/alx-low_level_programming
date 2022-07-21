@@ -19,7 +19,7 @@ int check_prime(int a, int b)
 
 /**
  * is_prime_number - prime number
- * @: the number to check
+ * @n: the number to check
  * Return: 0 on successful
  */
 
