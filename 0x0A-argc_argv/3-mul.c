@@ -21,9 +21,9 @@ int main(int argc, char *argv[])
 		printf("%d\n", prod);
 		return (0);
 	}
-	if (argc != 3)
+	else
 	{
 		printf("Error\n");
-		return (1);
 	}
+	return (1);
 }
