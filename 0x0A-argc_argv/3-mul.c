@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 	int num1, num2;
 	int mult;
 
-	if (argc[1] && argc[2])
+	if (argv[1] && argv[2])
 	{
 		num1 = atoi(argv[1]);
 		num2 = atoi(argv[2]);
